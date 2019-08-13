@@ -27,6 +27,10 @@ def query_bitsocket(query, fn):
         fn(json.loads(evt.data))
                 
 def bitsocket_handler(j):
+  if j['data'] == []:
+    pass
+  else:
+    print(j['data'])
     t.statuses.update(status=(j['data']))
                 
                 
