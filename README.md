@@ -78,3 +78,6 @@ deploy with
 ```
 python memobirb.py
 ```
+<br>
+<br>
+Special thanks to the guys in https://t.me/fountainheadcash // https://bitdb.bch.sx/
