@@ -30,8 +30,11 @@ def bitsocket_handler(j):
   if j['data'] == []:
     pass
   else:
-    print(j['data'])
-    t.statuses.update(status=(j['data']))
+    try:
+      print(j['data'])
+      t.statuses.update(status=(j['data']))
+    except ValueError:
+      pass        
                 
                 
 query_bitsocket({
