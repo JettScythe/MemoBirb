@@ -28,7 +28,7 @@ Replace 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' for each value with the values tw
 
 <br>
 
-Now go to memobirb.py in your favourite code editor - on line 33 you will find query_bitsocket: 
+Now go to memobirb.py in your favourite code editor - on line 40 you will find query_bitsocket: 
 ```
 query_bitsocket({
   "v": 3,
@@ -44,7 +44,7 @@ query_bitsocket({
   }             
 }, bitsocket_handler)
 ```
-Replace ""qxxxxxxxxxxxxxxxxxxxxxxxxxxx"" on line 38 with your memo.cash cashaddr WITHOUT the 'bitcoincash:' prefix. 
+Replace ""qxxxxxxxxxxxxxxxxxxxxxxxxxxx"" on line 45 with your memo.cash cashaddr WITHOUT the 'bitcoincash:' prefix. 
 <br>
 save all changes
 
