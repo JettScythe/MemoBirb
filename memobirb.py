@@ -33,7 +33,7 @@ def bitsocket_handler(j):
     try:
       print(j['data'])
       t.statuses.update(status=(j['data']))
-    except ValueError:
+    except:
       pass        
                 
                 
