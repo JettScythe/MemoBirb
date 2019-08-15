@@ -1,6 +1,10 @@
 # MemoBirb
 A memo.cash --> twitter.com post bridge
 
+## This is no longer needed if you're posting via memo.cash as they have implemented it natively
+https://twitter.com/Reset_Jett/status/1161812334144307200
+https://memo.cash/post/5224263ac3219c71fcb98b645446623f416934cf4eb7ca2c978fe6cdf1403a19
+
 ## REQUIREMENTS:
 Python (3.7 recommended) (Download here: https://www.python.org/downloads/)
 <br>
